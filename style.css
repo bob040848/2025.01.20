@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+}
+header {
+  width: 1204px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+}
+.Tour {
+  height: 35px;
+  width: 101px;
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+}
+.icon {
+  width: 20px;
+}
+.Hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 773px;
+  width: 1440px;
+  background-image: url(./images/HeroImage.png);
+}
+.Hero-11 {
+  font-size: 80px;
+  font-weight: 600;
+}
+.Hero-12 {
+  font-size: 250px;
+  font-weight: 600;
+}
+.Hero-13 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.Location {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 1440px;
+  background-image: url(./images/Location\ image.png);
+  color: white;
+}
+.box1 {
+  display: flex;
+  height: 370px;
+  width: 1202px;
+  justify-content: center;
+  gap: 40px;
+  padding: 65px 119px;
+}
+
+.pic1 {
+  border-radius: 80px;
+  height: 370px;
+  width: 275.49px;
+}
+.pic2 {
+  border-radius: 80px;
+  height: 370px;
+  width: 275.49px;
+}
+.pic3 {
+  border-radius: 80px;
+  height: 370px;
+  width: 275.49px;
+}
+.pic4 {
+  border-radius: 80px;
+  height: 370px;
+  width: 275.49px;
+}
+.Roadmap {
+  height: 1022px;
+  width: 1440px;
+  background-image: url(./images/Roadmap\ image.png);
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85px;
+  width: 1440px;
+  gap: 10px;
+  margin: 120px 2px 1px 2px;
+}
+.box2 h2 {
+  font-size: 42px;
+}
+.box2 p {
+  font-size: 20px;
+}
+.box3 {
+  display: flex;
+  height: 640px;
+  width: 1200px;
+  margin: 264px 120px 2px 120px;
+}
+.box31 {
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  width: 513px;
+  margin-right: 687px;
+}
+.box311 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  width: 513px;
+  background-color: #eee9d9;
+  border-radius: 90px;
+}
+.map11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  border-radius: 999px;
+}
+.box312 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  width: 513px;
+  background-color: #8bb8c1;
+  border-radius: 90px;
+}
+.map12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  border-radius: 999px;
+}
+.box313 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  width: 513px;
+  background-color: #aad8d7;
+  border-radius: 90px;
+}
+.map13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  border-radius: 999px;
+}
+.box314 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  width: 513px;
+  background-color: #8bc0bd;
+  border-radius: 90px;
+}
+.map14 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  border-radius: 999px;
+}
+.box315 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  width: 513px;
+  background-color: #97cce0;
+  border-radius: 90px;
+}
+.map15 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  border-radius: 999px;
+}
+.box32 {
+  height: 640px;
+  width: 647px;
+  margin-left: 563px;
+}
