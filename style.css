@@ -227,7 +227,120 @@ nav a {
   margin-left: 563px;
 }
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url(./images/Price&Footer\ image.png);
   height: 1120px;
   width: 1440px;
+}
+.footerbox1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  width: 1440px;
+}
+.footerbox11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  width: 1440px;
+}
+.footerbox111 {
+  font-size: 42px;
+}
+.footerbox112 {
+  font-size: 20px;
+}
+.footerbox12 {
+  display: flex;
+  height: 527px;
+  width: 1200px;
+  background-color: red;
+  gap: 24px;
+  margin-top: 79px;
+  margin-bottom: 185px;
+}
+.footerbox121 {
+  height: 527px;
+  width: 384px;
+  background-color: blue;
+}
+.footerbox122 {
+  height: 527px;
+  width: 384px;
+  background-color: green;
+}
+.footerbox123 {
+  height: 527px;
+  width: 384px;
+  background-color: pink;
+}
+.footerbox13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 204px;
+  width: 1440px;
+}
+.footerbox131 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  width: 1200px;
+}
+.footerbox1311 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 358px;
+}
+.footerbox13111 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 167px;
+}
+
+.face1 {
+  height: 24px;
+  width: 24px;
+}
+.span1 {
+  height: 22px;
+  width: 93px;
+}
+.Tour2 {
+  height: 35px;
+  width: 101px;
+}
+.footerbox13112 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 171px;
+}
+.ins1 {
+  height: 24px;
+  width: 24px;
+}
+.span2 {
+  height: 22px;
+  width: 97px;
+}
+.footerbox1312 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 101px;
 }
