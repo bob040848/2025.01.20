@@ -75,27 +75,45 @@ nav a {
   justify-content: center;
   gap: 40px;
   padding: 65px 119px;
+  position: relative;
+  font-size: 15px;
 }
-
-.pic1 {
+.box1 img {
   border-radius: 80px;
   height: 370px;
   width: 275.49px;
 }
-.pic2 {
-  border-radius: 80px;
-  height: 370px;
-  width: 275.49px;
+.loc1 {
+  position: relative;
 }
-.pic3 {
-  border-radius: 80px;
-  height: 370px;
-  width: 275.49px;
+.loc1 h2 {
+  position: absolute;
+  left: 25%;
+  top: 50%;
 }
-.pic4 {
-  border-radius: 80px;
-  height: 370px;
-  width: 275.49px;
+.loc2 {
+  position: relative;
+}
+.loc2 h2 {
+  position: absolute;
+  left: 5%;
+  top: 60%;
+}
+.loc3 {
+  position: relative;
+}
+.loc3 h2 {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+}
+.loc4 {
+  position: relative;
+}
+.loc4 h2 {
+  position: absolute;
+  left: 30%;
+  top: 50%;
 }
 .Roadmap {
   height: 1022px;
