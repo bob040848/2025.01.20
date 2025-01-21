@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +84,14 @@ nav a {
   height: 370px;
   width: 275.49px;
 }
+.box1 img:hover {
+  border-radius: 99px;
+  cursor: pointer;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  opacity: 0.8;
+}
+
 .loc1 {
   position: relative;
 }
@@ -244,21 +253,14 @@ nav a {
   width: 647px;
   margin-left: 563px;
 }
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(./images/Price&Footer\ image.png);
-  height: 1120px;
-  width: 1440px;
-}
+
 .footerbox1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 1440px;
+  background-image: url(./images/Price&Footer\ image.png);
 }
 .footerbox11 {
   display: flex;
@@ -297,6 +299,15 @@ footer {
   height: 527px;
   width: 384px;
   background-color: pink;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/Price&Footer\ image.png);
+  height: 1120px;
+  width: 1440px;
 }
 .footerbox13 {
   display: flex;
