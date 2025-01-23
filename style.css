@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
 .container {
   width: 1440px;
   margin-inline: auto;
@@ -167,7 +170,6 @@ nav a {
   width: 1200px;
   gap: 20px;
   margin-left: 100px;
-  position: relative;
 }
 .box311 {
   display: flex;
@@ -179,7 +181,6 @@ nav a {
   border-radius: 90px;
   padding-left: 20px;
   padding-right: 20px;
-  position: relative;
 }
 .map11 {
   display: flex;
@@ -516,8 +517,11 @@ nav a {
   background-color: #a4d1e2;
   border-radius: 90px;
   font-weight: 600;
+  color: white;
 }
-
+.footerbox121:hover .footerbox12122 {
+  background-color: black;
+}
 .footerbox122 {
   display: flex;
   flex-direction: column;
@@ -651,6 +655,10 @@ nav a {
   background-color: #a4d1e2;
   border-radius: 90px;
   font-weight: 600;
+  color: white;
+}
+.footerbox122:hover .footerbox12142 {
+  background-color: black;
 }
 .footerbox123 {
   display: flex;
@@ -768,8 +776,11 @@ nav a {
   background-color: #a4d1e2;
   border-radius: 90px;
   font-weight: 600;
+  color: white;
 }
-
+.footerbox123:hover .footerbox12162 {
+  background-color: black;
+}
 footer {
   display: flex;
   flex-direction: column;
